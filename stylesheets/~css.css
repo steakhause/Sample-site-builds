@@ -1,0 +1,194 @@
+/* General */
+
+
+
+/* Header */
+
+.navbar-header {
+  border-bottom: 1px solid #ddd;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  
+  display:block;
+ 
+  height:4em;
+  margin-top:1em;
+}
+
+#nav-icon{
+height:3em;
+width:3em;
+margin-right:1em; 
+float:left;
+display:inline-block;
+}
+
+/* Menu */ 
+.navbar-header p{
+
+font-family:impact;
+font-size:200%
+}
+#menu{
+margin-top:1em;
+}
+/* Dropdown */
+
+
+
+
+
+
+/* Carousel */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  border-bottom: 1px solid #ddd;
+}
+
+.slide {
+
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.slider{
+height:700px;
+ }
+.active-slide img{
+margin-top:0px;
+float:none;
+width:100%;
+overflow:hidden;
+position:relative;
+margin:auto;
+display:block;
+ }
+}
+.active-slide {
+    display: block;
+}
+
+.slide-tomorrow h1 {
+  color: #b7b7b7;  
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.slide-tomorrow h2 {
+  color: #E91E63;
+  
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 40px;
+  margin: 5px;
+}
+
+.slide-copy p {
+  color: #959595;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  line-height: 1.75em;
+  margin-bottom: 15px;
+  margin-top: 16px;
+}
+.success{
+margin-top:40px;
+width:100%;
+overflow:hidden;
+float:right;
+}
+#techGiven{
+margin-top:40px;
+width:100%;
+overflow:hidden;
+float:right;
+}
+#tablet{
+margin-top:20px;
+width:100%;
+overflow:hidden;
+float:right;
+}
+
+.slide-img {
+  text-align: right;
+}
+
+/* Slide feature */
+
+.slide-feature {
+  text-align: center;
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/ac.png');
+  height: 470px;
+}
+
+.slide-feature img {
+  margin-top: 112px;
+  margin-bottom: 28px;
+}
+
+.slide-feature a {
+  display: block;
+  color: #6fc5e0;
+  
+  font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  
+  font-size: 20px;
+}
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+  position:relative;
+  display:block;
+}
+.slider-nav p{
+font-size:200%;
+margin-top:0px; 
+color:black;
+}
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  text-decoration:none;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  text-decoration:none;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
