@@ -1,0 +1,69 @@
+@font-face{
+	font-family:bellerose;
+	src: url(Bellerose.ttf);
+}
+body{
+	background-color:#424242;
+	height:100%;
+}
+.green{
+	color:#0097A7;
+}
+.red{
+	color:#F44336;
+}
+.cursive{
+	font-family:cursive;
+}
+.around{
+	background:#424242;
+	margin-top:-20px;
+	padding:20px 0 20px;
+}
+.caurousel-inner{
+	padding-top:50px;
+}
+.classics{
+	background:#0097A7;
+	position:absolute;
+	bottom:10%;
+	left:-15px;
+	border-bottom-right-radius:5px;
+	border-top-right-radius:5px;
+	padding:5px 20px 5px 3px;
+	color:white;
+	font-family:Impact;
+	box-shadow:3px 5px 3px black;
+}
+.item p{
+	font-family:bellerose, Impact;
+	position:absolute;
+	top:60px;
+	text-align:center;
+	font-size:300%;
+	width:100%;
+	color:#F5F5F5;
+	text-shadow:2px 2px 2px #D50000;
+}
+.item{
+	height:1140;
+	width:500;
+	overflow:hidden;
+}
+.page-seg .movie{
+	margin:3em 0.5em 3em;
+}
+.movie-title{
+	font-family:bellerose;
+	font-size:1.5em;
+}
+.genre:hover{
+	cursor:pointer;
+}
+.poster{
+	margin-top:10px;
+	border:1px solid black;
+}
+img{
+	margin:0 auto;
+}
