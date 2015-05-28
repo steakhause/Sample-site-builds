@@ -19,6 +19,9 @@
 	font-family:arkitech;
 	color:#F44336;
 }
+.impact{
+	font-family:impact;
+}
 .bold-small{
 	font-weight:600; 
 	margin-bottom:1px;
@@ -66,11 +69,11 @@ h1{
 	background:white;
 }
 .navbar  {
-	border: 0px;
+	border: 0;
 	background-color: #222222; 
-	position: fixed; 
-	top: 50%; 
-	right: 5%; 
+	position: absolute; 
+	top: 0; 
+	right: 12px; 
 	width: 110px; 
 	z-index: 999; 
 }
@@ -109,26 +112,30 @@ h1{
 	background: #222222; 
 }
 .fixed .navbar  { 
-	position: absolute; 
+	position: fixed; 
 	top: 60px; 
 }
 .profile, .experience, .abilities, .projects{
 	padding-top:5em;
 	padding-bottom:5em;
 }
+.row{
+	margin-right:7em;
+	margin-left:7em;
+}
 .topic{
 	text-align:center;
 	border-bottom:1px solid #F44336;
 }
-.sub-topic{
-	padding:3em 1em 3em;
-}
 .bottom-border{
 	border-bottom:1px solid red;
 }
-.abilities .sub-topic, .git{
+ .sub-topic, .git{
 	text-align:center;
 	padding:1em 3em 1em;
+}
+.personal-des{
+	padding:1em;
 }
 .stars{
 	font-family:'seeing_starsregular';
@@ -146,4 +153,34 @@ h1{
 	padding:10px 20px 10px;
 	margin:0 auto;
 	text-align:center;
+}
+@media (max-width: 767px){
+	.navbar  { 
+		left: 0px; 
+		width: 100%; 
+	}
+	.navbar .nav > li { 
+		height: 60px; 
+	}
+	.navbar .nav > li a { 
+		height: 60px; 
+		text-align: center; 
+		padding-top: 20px; 
+		font-weight: 600; 
+		color: #F44336; 
+	}	
+	.fixed .navbar { 
+		top: 0px; 
+	}	
+	.container { 
+		padding: 60px 20px; 
+		min-width: 280px; 
+	}
+	.hidden-phone { 
+		display: none; 
+	}
+	.row{
+		margin-left:1em;
+		margin-right:1em;
+	}
 }
